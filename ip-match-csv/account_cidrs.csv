@@ -1,3 +1,4 @@
-ACCOUNT|CIDRS
-012345|["26.2.2.0/24","26.2.3.0/24"]
-034567|26.32.2.0/24
+ACCOUNT|CIDRS|Env|Account Type|Active
+012345|["26.2.2.0/24","26.2.3.0/24"]|Dev|Dev|True
+034567|26.32.2.0/19|Prod|Prod|True
+```
