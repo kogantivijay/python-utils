@@ -1,0 +1,3 @@
+GroupName|Type|Env|Protocol|fromPort|toPort|cidr-range|sg-reference|Description
+agent-ec2-sg|egress|Prod-Only|tcp|445|445||!Ref agent-ec2-sg|desc1
+agent-ec2-sg|egress|Both|tcp|445|445|10.0.0.0/24||desc2
